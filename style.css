@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: hsl(47, 88%, 63%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-main{
+    background:hsl(0, 0%, 100%);
+    width: 22rem;
+    
+    height: fit-content;
+    text-align: center;
+    padding: 1.2rem .1rem .3rem .1rem;
+    border: 1px solid #000000;
+    border-radius: 1.4rem;
+    box-shadow: .5rem .5rem 0 0;
+    
+}
+.img{
+    width: 90%;
+    border-radius: .8rem;
+}
+.text-content{
+    margin: 1rem;
+    text-align: left;
+}
+.learning{
+    width: 5.5rem;
+    padding:.4rem;
+    text-align: center;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: .3rem;
+}
+.published{
+    margin-top:.8rem;
+    color: hsl(0, 0%, 7%) ;
+}
+.title{
+    margin:1.2rem 0 1.2rem 0;
+}
+.title:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.text{
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+}
+.avatar{
+    display: flex;
+    align-items:center;
+    margin-top:1.3rem
+}
+.img-avatar{
+    width: 2rem;
+}
+.name{
+    font-size: .8rem;
+    margin-left: .6rem;
+    font-weight:800;
+}
+@media (min-width: 640px) {
+    .card-main{
+        width: 24rem;
+    }
+}
